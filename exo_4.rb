@@ -39,6 +39,6 @@ def NoteTable()
         end
     end
     # il affiche le nombre de note saisie et la moyenne
-    puts "il y a eu #{notes.lenght} notes de saisies et que la moyenne est de #{notes+2} / 20"
+    puts "il y a eu #{notes.length()} notes de saisies et que la moyenne est de #{notes.sum/notes.length()} / 20"
 end
 NoteTable()
