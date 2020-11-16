@@ -21,7 +21,7 @@ def word
         letter = alphabet.index(i)
         if letter > 9 
             result = letter.to_s
-            sum += reuslt[0].to_i+result[1].to_i
+            sum += result[0].to_i+result[1].to_i
         else
             sum += letter
         end
